@@ -4,7 +4,7 @@ import Card from './Card';
 import CardSection from './CardSection';
 import Button from './Button';
 
-//here first we receive the prop that we passed from Albumlist
+//here first we recieve the prop that we passed from Albumlist
 const AlbumDetail = ({album}) => {
   //here we only get those elements that we need and remove props.album from the view tags
   const { title, artist, thumbnail_image, image, url } = album;
@@ -64,6 +64,6 @@ const styles = {
     height:300,
     flex:1
   }
-};
+}
 
 export default AlbumDetail;
